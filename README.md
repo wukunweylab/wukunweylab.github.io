@@ -31,7 +31,7 @@
 ---
   <div style="text-align: center;">
     <img src="2024.png" width="400">
-    <p>2024</p>
+    <p>2024.10</p>
   </div>
 </div>
 ---
