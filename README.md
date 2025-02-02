@@ -1,4 +1,4 @@
-# anesthesia and synaptic plasticity
+# Anesthesia and Synaptic Plasticity
 
 Welcome to the official website of Wukun Weylab! Our lab focuses on cutting-edge research in [insert your research field here, e.g., artificial intelligence, bioinformatics, computational biology, etc.]. We are dedicated to advancing knowledge and developing innovative solutions to complex problems in our field.
 
