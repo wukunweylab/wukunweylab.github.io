@@ -6,12 +6,13 @@ Welcome to the official website of Wukun Weylab! Our lab focuses on cutting-edge
 
 ## Navigation
 
-<div style="text-align: center;">
-  <a href="#research" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Research</a>
-  <a href="#publications" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Publications</a>
-  <a href="#people" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">People</a>
-  <a href="#join-us" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Join Us</a>
-  <a href="#contact" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Contact</a>
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="#research" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; transition: background-color 0.3s;">Research</a>
+  <a href="#publications" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; transition: background-color 0.3s;">Publications</a>
+  <a href="#people" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; transition: background-color 0.3s;">People</a>
+  <a href="#join-us" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; transition: background-color 0.3s;">Join Us</a>
+  <a href="#contact" style="margin: 5px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; transition: background-color 0.3s;">Contact</a>
+  <button id="language-toggle" style="margin: 5px; padding: 10px 20px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: background-color 0.3s;">切换中文</button>
 </div>
 
 ---
@@ -99,3 +100,46 @@ If you have any questions or would like to collaborate with us, please don't hes
 - **Email**: lab.email@example.com
 - **Phone**: +1 (123) 456-7890
 - **Address**: [Insert your lab's physical address here]
+
+---
+
+© 2023 Wukun Weylab. All rights reserved.
+
+<script>
+  // Language toggle script
+  const languageToggle = document.getElementById('language-toggle');
+  const content = {
+    en: {
+      research: "Research",
+      publications: "Publications",
+      people: "People",
+      joinUs: "Join Us",
+      contact: "Contact",
+      toggleText: "切换中文"
+    },
+    zh: {
+      research: "研究",
+      publications: "出版物",
+      people: "团队成员",
+      joinUs: "加入我们",
+      contact: "联系我们",
+      toggleText: "Switch to English"
+    }
+  };
+
+  let currentLanguage = 'en';
+
+  languageToggle.addEventListener('click', () => {
+    currentLanguage = currentLanguage === 'en' ? 'zh' : 'en';
+    updateContent();
+  });
+
+  function updateContent() {
+    document.querySelector('a[href="#research"]').textContent = content[currentLanguage].research;
+    document.querySelector('a[href="#publications"]').textContent = content[currentLanguage].publications;
+    document.querySelector('a[href="#people"]').textContent = content[currentLanguage].people;
+    document.querySelector('a[href="#join-us"]').textContent = content[currentLanguage].joinUs;
+    document.querySelector('a[href="#contact"]').textContent = content[currentLanguage].contact;
+    languageToggle.textContent = content[currentLanguage].toggleText;
+  }
+</script>
