@@ -31,11 +31,11 @@
 ---
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
   <div style="text-align: center;">
-    <img src="https://github.com/wukunweylab/wukunweylab.github.io/blob/main/2023.png" style="border-radius: 50%;">
+    <img src="2023.png" style="border-radius: 50%;">
     <p>2023</p>
   </div>
   <div style="text-align: center;">
-    <img src="https://github.com/wukunweylab/wukunweylab.github.io/blob/main/2024.png" style="border-radius: 50%;">
+    <img src="2024.png" style="border-radius: 50%;">
     <p>2024</p>
   </div>
 </div>
