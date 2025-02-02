@@ -30,7 +30,7 @@
   
 ---
   <div style="text-align: center;">
-    <img src="2024.png" style="border-radius: 60%;">
+    <img src="2024.png" width="400">
     <p>2024</p>
   </div>
 </div>
