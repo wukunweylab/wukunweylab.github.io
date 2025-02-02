@@ -35,7 +35,7 @@
     <p>2023</p>
   </div>
   <div style="text-align: center;">
-    <img src="https://github.com/wukunweylab/wukunweylab.github.io/blob/main/2024.jpg" alt="Person 2" style="border-radius: 50%;">
+    <img src="https://github.com/wukunweylab/wukunweylab.github.io/blob/main/2024.png" alt="Person 2" style="border-radius: 50%;">
     <p>2024</p>
   </div>
 </div>
