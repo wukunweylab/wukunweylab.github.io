@@ -40,7 +40,7 @@
 
 1.	Wang G, Peng S, Mendez MR , Keramidas A, Castellano D, **Wu KW**, Han W, Tian Q, Dong L, Li Y and Lu W. The TMEM132B-GABAA receptor complex controls alcohol actions in the brain. *Cell*. 2024.
 2.	Pandey S, Han W, Li J, Shepard R, **Wu KW**, Castellano D, Tian Q, Dong L, Li Y, Lu W. Reversing anxiety by targeting a stress-responsive signaling pathway. *PNAS*. 2024.
-3.	**Wu KW#**, Gong S, Chu XP: Crosstalk within neurovascular unit: endothelial implications for the development and function of brain. Frontiers in Cellular Neuroscience. 2024. (#corresponding author)
+3.	**Wu KW#**, Gong S, Chu XP: Crosstalk within neurovascular unit: endothelial implications for the development and function of brain. *Frontiers in Cellular Neuroscience*. 2024. (#corresponding author)
 4.	**Wu KW#**, Lu W: GABAergic synaptic transmission and plasticity oscillate across sleep and wake. *Neural Regeneration Research* 2023. (#corresponding author)
 5.	Castellano D, **Wu KW**, Keramidas A, Lu W: Shisa7-dependent control of GABAA receptor single channel gating kinetics. *Journal of Neuroscience* 2022. 
 6.	**Wu KW**, Han W, Lu W: Sleep and wake cycles dynamically modulate hippocampal inhibitory synaptic plasticity. *PLOS biology* 2022. 
