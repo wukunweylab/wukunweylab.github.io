@@ -94,5 +94,6 @@
 - **邮箱**: kunwei.wu@xzhmu.edu.cn 
 - **电话**: 0516-83262690 
 
-
-[![访问次数](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/wukunweylab/wukunweylab.github.io&title=访问次数)](https://hits.seeyoufarm.com)
+<div style="position: fixed; bottom: 10px; right: 10px;">
+    <img src="https://komarev.com/ghpvc/?username=wukunweylab&repo=wukunweylab.github.io&color=blue&style=flat" alt="访问次数">
+</div>
