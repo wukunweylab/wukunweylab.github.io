@@ -27,6 +27,18 @@
 ### 🎓 本科生
 - 贾肖、俞智阳、汤灿、周慧  
 
+  
+---
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+  <div style="text-align: center;">
+    <img src="https://via.placeholder.com/150" alt="Person 1" style="border-radius: 50%;">
+    <p>2023</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://via.placeholder.com/150" alt="Person 2" style="border-radius: 50%;">
+    <p>2024</p>
+  </div>
+</div>
 ---
 
 ## 📢 最新动态
