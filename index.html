@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吴坤伟课题组 | 徐州医科大学</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Microsoft YaHei', sans-serif; line-height: 1.6; color: #333; }
+        
+        /* 导航栏 */
+        nav { background: #1e3a8a; padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 2rem; max-width: 1200px; margin: 0 auto; padding: 0 2rem; flex-wrap: wrap; }
+        nav a { color: white; text-decoration: none; font-weight: 500; transition: opacity 0.3s; }
+        nav a:hover { opacity: 0.8; }
+        
+        /* 头部横幅 */
+        header { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: white; padding: 4rem 2rem; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        
+        /* 内容区 */
+        .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+        .section { margin-bottom: 4rem; }
+        .section h2 { color: #1e3a8a; font-size: 2rem; margin-bottom: 1.5rem; border-bottom: 3px solid #3b82f6; padding-bottom: 0.5rem; }
+        
+        /* 原有图片展示 */
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .gallery-item { background: #f8fafc; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .gallery-item img { width: 100%; height: 250px; object-fit: cover; }
+        .gallery-item p { padding: 1rem; text-align: center; color: #475569; }
+        
+        /* 新闻卡片 */
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .news-card { background: #f8fafc; border-radius: 8px; padding: 1.5rem; border-left: 4px solid #3b82f6; transition: transform 0.3s; }
+        .news-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .news-card .date { color: #64748b; font-size: 0.9rem; margin-bottom: 0.5rem; }
+        .news-card h3 { color: #1e3a8a; margin-bottom: 0.5rem; }
+        .badge { display: inline-block; background: #dc2626; color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; margin-right: 0.5rem; }
+        
+        /* 快速链接 */
+        .quick-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+        .link-card { background: white; border: 2px solid #e2e8f0; border-radius: 8px; padding: 1.5rem; text-align: center; transition: all 0.3s; }
+        .link-card:hover { border-color: #3b82f6; background: #eff6ff; }
+        .link-card a { color: #1e3a8a; text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+        
+        footer { background: #1e293b; color: white; text-align: center; padding: 2rem; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+    <!-- 导航 -->
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="research.html">研究方向</a></li>
+            <li><a href="publications.html">发表论文</a></li>
+            <li><a href="team.html">团队成员</a></li>
+            <li><a href="join.html">加入我们</a></li>
+            <li><a href="contact.html">联系方式</a></li>
+        </ul>
+    </nav>
+
+    <!-- 头部 -->
+    <header>
+        <h1>吴坤伟课题组</h1>
+        <p>徐州医科大学麻醉学院 | 突触可塑性与神经环路研究</p>
+    </header>
+
+    <!-- 内容 -->
+    <div class="container">
+        <!-- 最新动态 -->
+        <section class="section">
+            <h2>🔥 最新动态</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="date">2026年3月5日</div>
+                    <h3><span class="badge">NEW</span>PNAS发表重磅研究</h3>
+                    <p>揭示恐惧消退引发恐惧泛化的核心机制，发现蓝斑-齿状回去甲肾上腺素能环路是调控"风声鹤唳，草木皆兵"现象的关键开关。</p>
+                </div>
+                <div class="news-card">
+                    <div class="date">2025年12月</div>
+                    <h3>Anesthesiology在线发表</h3>
+                    <p>揭示急性应激通过脑干环路调控麻醉苏醒的性别特异性机制。</p>
+                </div>
+                <div class="news-card">
+                    <div class="date">2025年6月</div>
+                    <h3>荣获"十大杰出青年"</h3>
+                    <p>吴坤伟教授获评徐州医科大学第二届"十大杰出青年"（提名奖）。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 原有图片展示（保留） -->
+        <section class="section">
+            <h2>📸 课题组风采</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="2023.jpg" alt="2023年">
+                    <p>2023年组合影</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="2024.jpg" alt="2024年">
+                    <p>2024年组合影</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="OIP-C.jpg" alt="实验室">
+                    <p>实验室环境</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 快速导航 -->
+        <section class="section">
+            <h2>📑 快速导航</h2>
+            <div class="quick-links">
+                <div class="link-card">
+                    <a href="research.html">🔬 研究方向<br><small>突触可塑性 & 神经环路</small></a>
+                </div>
+                <div class="link-card">
+                    <a href="publications.html">📄 发表论文<br><small>Science, Cell, PNAS...</small></a>
+                </div>
+                <div class="link-card">
+                    <a href="team.html">👥 团队成员<br><small>PI & 研究生</small></a>
+                </div>
+                <div class="link-card">
+                    <a href="join.html">🎯 加入我们<br><small>招生招聘进行中</small></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 简介 -->
+        <section class="section">
+            <h2>🧠 课题组简介</h2>
+            <p>本课题组隶属于<strong>国家药品监督管理局麻醉精神药物研究与评价重点实验室</strong>、<strong>江苏省麻醉学重点实验室</strong>，围绕<strong>突触功能及可塑性调控</strong>开展研究，主要通过<strong>电生理学、遗传学、行为学</strong>等技术手段，研究<strong>麻醉对意识、学习记忆、代谢稳态的调控机制</strong>。</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2026 吴坤伟课题组 | 徐州医科大学麻醉学院</p>
+        <p>地址：江苏省徐州市铜山路209号科教楼D401</p>
+    </footer>
+</body>
+</html>
