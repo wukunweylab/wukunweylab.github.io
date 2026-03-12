@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>发表论文 | 吴坤伟课题组</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Microsoft YaHei', sans-serif; line-height: 1.6; color: #333; background: #f8fafc; }
+        
+        nav { background: #1e3a8a; padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 2rem; max-width: 1200px; margin: 0 auto; padding: 0 2rem; flex-wrap: wrap; }
+        nav a { color: white; text-decoration: none; font-weight: 500; }
+        
+        .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+        h1 { color: #1e3a8a; font-size: 2.5rem; margin-bottom: 2rem; text-align: center; }
+        
+        .year-section { margin-bottom: 3rem; }
+        .year-title { background: #1e3a8a; color: white; padding: 0.5rem 1rem; display: inline-block; border-radius: 4px; font-size: 1.2rem; margin-bottom: 1rem; }
+        
+        .paper-list { display: flex; flex-direction: column; gap: 1.5rem; }
+        .paper-item { background: white; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .paper-item.highlight { border-left-color: #dc2626; background: #fef2f2; }
+        .paper-title { font-weight: 600; color: #1e293b; margin-bottom: 0.5rem; font-size: 1.1rem; }
+        .paper-authors { color: #475569; margin-bottom: 0.5rem; }
+        .paper-journal { color: #1e3a8a; font-weight: 600; }
+        .paper-meta { display: flex; gap: 1rem; margin-top: 0.5rem; font-size: 0.9rem; color: #64748b; }
+        .badge-new { background: #dc2626; color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; margin-right: 0.5rem; }
+        
+        .back-link { display: inline-block; margin-top: 2rem; color: #1e3a8a; text-decoration: none; font-weight: 600; }
+        .back-link:hover { text-decoration: underline; }
+        
+        footer { background: #1e293b; color: white; text-align: center; padding: 2rem; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="research.html">研究方向</a></li>
+            <li><a href="publications.html">发表论文</a></li>
+            <li><a href="team.html">团队成员</a></li>
+            <li><a href="join.html">加入我们</a></li>
+            <li><a href="contact.html">联系方式</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>📚 代表性论文</h1>
+        
+        <div class="year-section">
+            <div class="year-title">2026</div>
+            <div class="paper-list">
+                <div class="paper-item highlight">
+                    <div class="paper-title"><span class="badge-new">NEW</span>Fear extinction induces maladaptive generalization via noradrenergic and GABAergic systems</div>
+                    <div class="paper-authors"><strong>Wu KW</strong>, Li C, Cao JL, et al.</div>
+                    <div class="paper-journal">PNAS (Proceedings of the National Academy of Sciences)</div>
+                    <div class="paper-meta">
+                        <span>2026年3月5日</span>
+                        <span>DOI: 10.1073/pnas.2521767123</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="year-section">
+            <div class="year-title">2025</div>
+            <div class="paper-list">
+                <div class="paper-item">
+                    <div class="paper-title">Sex-specific Effects of Acute Stress on Emergence from Isoflurane Anesthesia via Brainstem Circuitry in Mice</div>
+                    <div class="paper-authors">Zhao XH, Meng X, Gong S, Tang C, Yu ZY, Wang XH, Liu S, <strong>Cao JL*</strong>, <strong>Wu KW*</strong></div>
+                    <div class="paper-journal">Anesthesiology</div>
+                    <div class="paper-meta">
+                        <span>2025年12月9日</span>
+                        <span>PMID: 41182993</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="year-section">
+            <div class="year-title">2024</div>
+            <div class="paper-list">
+                <div class="paper-item">
+                    <div class="paper-title">The TMEM132B-GABAA receptor complex controls alcohol actions in the brain</div>
+                    <div class="paper-authors">Wang G, Peng S, <strong>Wu KW</strong>, et al.</div>
+                    <div class="paper-journal">Cell</div>
+                </div>
+                <div class="paper-item">
+                    <div class="paper-title">Crosstalk within neurovascular unit: endothelial implications for the development and function of brain</div>
+                    <div class="paper-authors"><strong>Wu KW</strong>, Gong S, Chu XP</div>
+                    <div class="paper-journal">Frontiers in Cellular Neuroscience</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="year-section">
+            <div class="year-title">2019-2022 精选</div>
+            <div class="paper-list">
+                <div class="paper-item">
+                    <div class="paper-title">Shisa7 is a GABAA receptor auxiliary subunit controlling benzodiazepine actions</div>
+                    <div class="paper-authors">Han W, Li J, Pelkey KA, <strong>Wu KW</strong>, et al.</div>
+                    <div class="paper-journal">Science</div>
+                    <div class="paper-meta"><span>2019</span></div>
+                </div>
+                <div class="paper-item">
+                    <div class="paper-title">Sleep and wake cycles dynamically modulate hippocampal inhibitory synaptic plasticity</div>
+                    <div class="paper-authors"><strong>Wu KW</strong>, Han W, Lu W</div>
+                    <div class="paper-journal">PLoS Biology</div>
+                    <div class="paper-meta"><span>2022</span></div>
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-link">← 返回首页</a>
+    </div>
+
+    <footer>
+        <p>© 2026 吴坤伟课题组 | 徐州医科大学麻醉学院</p>
+    </footer>
+</body>
+</html>

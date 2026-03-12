@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吴坤伟课题组 | 徐州医科大学麻醉学院</title>
+    <meta name="description" content="吴坤伟课题组-突触可塑性与麻醉机制研究，江苏特聘教授团队">
+    
+    <!-- 样式层 -->
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #3b82f6;
+            --accent: #60a5fa;
+            --bg: #f8fafc;
+            --text: #1e293b;
+            --border: #e2e8f0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+        }
+        
+        /* 导航栏 */
+        nav {
+            background: var(--primary);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        /* 主要内容区 */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        /* 英雄区 */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* 卡片系统 */
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--secondary);
+        }
+        
+        .card h2 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+        
+        /* 论文列表 */
+        .pub-item {
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            background: #f1f5f9;
+            border-radius: 6px;
+            border-left: 3px solid var(--accent);
+        }
+        
+        .pub-title {
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .pub-meta {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        .pub-highlight {
+            display: inline-block;
+            background: #dc2626;
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            margin-right: 0.5rem;
+        }
+        
+        /* 团队成员网格 */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .team-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .team-card h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        /* 页脚 */
+        footer {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 导航层 -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Wu Lab</a>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#research">研究</a></li>
+                <li><a href="#publications">论文</a></li>
+                <li><a href="#team">团队</a></li>
+                <li><a href="#join">加入</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 英雄区 -->
+    <section class="hero" id="home">
+        <h1>吴坤伟课题组</h1>
+        <p>突触可塑性与麻醉机制研究 | 徐州医科大学麻醉学院<br>
+        国家药品监督管理局麻醉精神药物研究与评价重点实验室</p>
+    </section>
+
+    <div class="container">
+        
+        <!-- PI介绍模块 -->
+        <div class="card" id="pi">
+            <h2>👨‍🔬 课题组长 (PI)</h2>
+            <div id="pi-content">
+                <!-- 数据通过JS动态加载 -->
+                <p>加载中...</p>
+            </div>
+        </div>
+
+        <!-- 研究方向模块 -->
+        <div class="card" id="research">
+            <h2>🧠 研究方向</h2>
+            <div id="research-content"></div>
+        </div>
+
+        <!-- 最新论文模块 (2026年更新) -->
+        <div class="card" id="publications">
+            <h2>📚 代表性论文</h2>
+            <div id="pub-list">
+                <div class="pub-item">
+                    <span class="pub-highlight">NEW 2026</span>
+                    <div class="pub-title">
+                        Fear extinction induces maladaptive generalization via noradrenergic and GABAergic systems
+                    </div>
+                    <div class="pub-meta">
+                        <strong>PNAS</strong> (2026.03.05) | 
+                        吴坤伟, 李灿, 曹君利 等 | 
+                        DOI: 10.1073/pnas.2521767123<br>
+                        <em>揭示恐惧消退引发泛化的核心机制，为焦虑症和PTSD治疗提供新靶点</em>
+                    </div>
+                </div>
+                
+                <div class="pub-item">
+                    <span class="pub-highlight">2025</span>
+                    <div class="pub-title">
+                        Sex-specific Effects of Acute Stress on Emergence from Isoflurane Anesthesia via Brainstem Circuitry in Mice
+                    </div>
+                    <div class="pub-meta">
+                        <strong>Anesthesiology</strong> (2025.12) | 
+                        赵祥合, 孟欣, 龚淑敏, 吴坤伟*, 曹君利* | 
+                        PMID: 41182993
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        Crosstalk within neurovascular unit: endothelial implications for the development and function of brain
+                    </div>
+                    <div class="pub-meta">
+                        <strong>Frontiers in Cellular Neuroscience</strong> (2024) | 
+                        吴坤伟, 龚淑敏, 储旭平
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        Shisa7 is a GABAA receptor auxiliary subunit controlling benzodiazepine actions
+                    </div>
+                    <div class="pub-meta">
+                        <strong>Science</strong> (2019) | 
+                        Han W, 吴坤伟(共同作者), 等
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 团队成员模块 -->
+        <div class="card" id="team">
+            <h2>👥 团队成员</h2>
+            <div class="team-grid" id="team-grid">
+                <!-- 动态加载 -->
+            </div>
+        </div>
+
+        <!-- 加入我们模块 -->
+        <div class="card" id="join">
+            <h2>🎯 加入我们</h2>
+            <div id="join-content">
+                <p>课题组长期招收<strong>硕士研究生、博士后、科研助理</strong>。</p>
+                <ul style="margin: 1rem 0; padding-left: 1.5rem;">
+                    <li>博士后A类：年薪30万+津贴</li>
+                    <li>博士后B类：年薪24万+津贴</li>
+                    <li>免费入住人才公寓</li>
+                </ul>
+                <p>📧 联系邮箱：<strong>kunwei.wu@xzhmu.edu.cn</strong></p>
+            </div>
+        </div>
+
+        <!-- 联系方式模块 -->
+        <div class="card" id="contact">
+            <h2>📍 联系方式</h2>
+            <div id="contact-content">
+                <p>📍 地址：江苏省徐州市铜山路209号科教楼D401</p>
+                <p>📧 邮箱：kunwei.wu@xzhmu.edu.cn / wukunwey@hotmail.com</p>
+                <p>🆔 ORCID：<a href="https://orcid.org/0000-0003-4074-0567" target="_blank">0000-0003-4074-0567</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024-2026 吴坤伟课题组 | 徐州医科大学麻醉学院</p>
+        <p>国家药品监督管理局麻醉精神药物研究与评价重点实验室</p>
+    </footer>
+
+    <!-- 数据层与逻辑层 -->
+    <script>
+        // 第二层：数据层 (JSON格式，易于维护)
+        const labData = {
+            pi: {
+                name: "吴坤伟 (Kunwei Wu)",
+                title: "教授、博士生导师、江苏特聘教授",
+                education: [
+                    "2013年：重庆医科大学，医学文学双学士学位",
+                    "2018年：复旦大学，医学博士学位", 
+                    "2018-2022年：美国国立卫生研究院 (NIH) 博士后"
+                ],
+                email: "kunwei.wu@xzhmu.edu.cn",
+                orcid: "0000-0003-4074-0567"
+            },
+            
+            research: [
+                "麻醉对意识、学习记忆、代谢稳态调控机制",
+                "精神疾病发病机制及麻醉治疗", 
+                "全麻及术后认知障碍的突触机制",
+                "神经环路机制与突触可塑性"
+            ],
+            
+            team: {
+                graduate: ["叶嘉乐", "郑爱秋", "龚淑敏", "孟欣", "俞丹", "赵祥合"],
+                undergraduate: ["贾肖", "俞智阳", "汤灿", "周慧"]
+            }
+        };
+
+        // 第三层：渲染逻辑 (动态生成内容)
+        document.addEventListener('DOMContentLoaded', function() {
+            // 渲染PI信息
+            const piContent = document.getElementById('pi-content');
+            piContent.innerHTML = `
+                <h3>${labData.pi.name}</h3>
+                <p><strong>${labData.pi.title}</strong></p>
+                <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                    ${labData.pi.education.map(edu => `<li>${edu}</li>`).join('')}
+                </ul>
+                <p style="margin-top: 1rem;">📧 ${labData.pi.email}</p>
+            `;
+
+            // 渲染研究方向
+            const researchContent = document.getElementById('research-content');
+            researchContent.innerHTML = `
+                <ul style="padding-left: 1.5rem;">
+                    ${labData.research.map(item => `<li style="margin-bottom: 0.5rem;">${item}</li>`).join('')}
+                </ul>
+            `;
+
+            // 渲染团队成员
+            const teamGrid = document.getElementById('team-grid');
+            const allMembers = [
+                ...labData.team.graduate.map(name => ({name, type: '研究生'})),
+                ...labData.team.undergraduate.map(name => ({name, type: '本科生'}))
+            ];
+            
+            teamGrid.innerHTML = allMembers.map(member => `
+                <div class="team-card">
+                    <h3>${member.name}</h3>
+                    <p>${member.type}</p>
+                </div>
+            `).join('');
+        });
+    </script>
+
+</body>
+</html>
